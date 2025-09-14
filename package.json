@@ -4,13 +4,19 @@
   "description": "A modern and intuitive forum application designed for vibrant community discussions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^24.3.1",
+    "dayjs": "^1.11.18",
     "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
   }
 }
