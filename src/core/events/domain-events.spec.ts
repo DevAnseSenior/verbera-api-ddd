@@ -46,6 +46,7 @@ describe('Domain Events', () => {
 
     // Subscriber listens to the event and does what needs to be done with the data
     expect(callBackSpy).toHaveBeenCalled()
+
     expect(aggregate.domainEvents).toHaveLength(0)
   })
 })
